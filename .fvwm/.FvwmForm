@@ -1,0 +1,20 @@
+# This file last created by FvwmForm-Form on: Tue Jan 27 01:58:20 UTC 2004.
+*FvwmFormDefault: Font 8x13bold
+*FvwmFormDefault: InputFont 8x13bold
+*FvwmFormDefault: ButtonFont 8x13bold
+*FvwmFormDefault: Fore Wheat
+*FvwmFormDefault: Back Gray50
+*FvwmFormDefault: Colorset -1
+*FvwmFormDefault: ItemFore Black
+*FvwmFormDefault: ItemBack Light Gray
+*FvwmFormDefault: ItemColorset -1
+*FvwmFormDefault: ButtonPointer hand2
+*FvwmFormDefault: ButtonInPointer hand2
+*FvwmFormDefault: InputPointer xterm
+*FvwmFormDefault: ActivateOnPress on
+*FvwmFormDefault: ButtonPointerFore white
+*FvwmFormDefault: ButtonPointerBack black
+*FvwmFormDefault: ButtonInPointerFore black
+*FvwmFormDefault: ButtonInPointerBack white
+*FvwmFormDefault: InputPointerFore white
+*FvwmFormDefault: InputPointerBack black
