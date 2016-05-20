@@ -1,4 +1,3 @@
-# Add customizations below this line
 set prompt="%m:%/% "            # for tcsh
 alias d    	ls -F
 alias dir  	'ls -aF \!*'
