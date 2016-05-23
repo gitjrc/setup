@@ -151,14 +151,12 @@ Mouse 3	TSIF	A	RaiseLower
 AddToFunc InitFunction
 +			"I"	Module	FvwmPager 0 13
 +			  "I" exec xsetroot -solid darkseagreen4
-+                       "I" exec /home/jciminsk/bin/set_display
 # +			"I"	Exec	xli -onroot /usr/local/bg/trees5.jpg
 # +			"I"	Exec	tkdesk
 
 AddToFunc RestartFunction
 +			"I"	Module	FvwmPager 0 13
 +			  "I" exec xsetroot -solid darkseagreen4
-+                       "I" exec /home/jciminsk/bin/set_display
 
 ######################## Menus ###################
 AddToMenu RootMenu "Root Menu	%mini-x2.xpm%"	Title
@@ -346,7 +344,7 @@ AddToFunc boxFunction "I" Exec xemacs /home/jciminsk/vocola/commands/go.vcl
 *FvwmPagerBalloons            All
 *FvwmPagerBalloonBack         Yellow
 *FvwmPagerBalloonFore         Black
-*FvwmPagerBalloonFont         lucidasanstypewriter-12
+*FvwmPagerBalloonFont         lucidasanstypewriter-16
 *FvwmPagerBalloonYOffset      +2
 *FvwmPagerBalloonBorderWidth  1
 *FvwmPagerBalloonBorderColor  Black
