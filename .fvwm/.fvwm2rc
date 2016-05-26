@@ -150,7 +150,7 @@ Mouse 3	TSIF	A	RaiseLower
 ######################## Initialization Functions ############################
 AddToFunc InitFunction
 +			"I"	Module	FvwmPager 0 13
-+			  "I" exec xsetroot -solid darkseagreen4
++			  "I" exec xsetroot -solid gray78
 # +			"I"	Exec	xli -onroot /usr/local/bg/trees5.jpg
 # +			"I"	Exec	tkdesk
 
@@ -162,6 +162,8 @@ AddToFunc RestartFunction
 AddToMenu RootMenu "Root Menu	%mini-x2.xpm%"	Title
 + "xterm	%mini-term.xpm%"	Exec	xterm -bg blanchedalmond -ls -sb -sl 10000 -fs 17
 + "Console	%mini-term.xpm%"	Exec	xterm -C -bg blanchedalmond -ls -sb -sl 10000
++ "IB"                                  Exec    /bin/sh "/home/john/Jts/956/tws"
++ "Pager"				Module  FvwmPager 0 13
 + "xemacs"                              Exec    xemacs -bg blanchedalmond &
 + "Manual pages	%mini-book1.xpm%"	Exec	xman
 + ""					Nop
@@ -356,7 +358,7 @@ AddToFunc boxFunction "I" Exec xemacs /home/jciminsk/vocola/commands/go.vcl
 *FvwmPager: Label 6 intdc
 *FvwmPager: Label 7 train
 *FvwmPager: Label 8 lrg
-*FvwmPager: Label 9 aim
+*FvwmPager: Label 9 Java
 *FvwmPager: Label 10 coale
 *FvwmPager: Label 12 pyth
 
