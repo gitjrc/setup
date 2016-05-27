@@ -16,7 +16,7 @@ set filec                       # enable filename completion
 if ( `set|/bin/egrep '^cdpath'` == "" && $?CDPATH ) then
   set cdpath=`echo $CDPATH|tr ':' ' '`
 endif
-setenv PATH ${PATH}:${HOME}/bin
+setenv PATH ${PATH}:${HOME}/bin:.
 setenv SQLPATH ${HOME}/sql
 setenv USERNAME `id | sed "s/[a-zA-Z= 0-9]*(\([a-zA-Z0-9]*\)).*/\1/"`
 if ( $?USER_HOME == 0) then
