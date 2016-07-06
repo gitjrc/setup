@@ -26,3 +26,10 @@ endif
 setenv EDITOR emacs
 # Keep git from bellyaching when running commands inside Emacs shell
 setenv PAGER /bin/cat
+
+setenv ORACLE_HOME /u01/app/oracle/product/11.2.0/xe
+setenv ORACLE_SID XE
+setenv NLS_LANG `$ORACLE_HOME/bin/nls_lang.sh`
+setenv ORACLE_BASE /u01/app/oracle
+setenv LD_LIBRARY_PATH $ORACLE_HOME/lib
+setenv PATH $ORACLE_HOME/bin:$PATH
